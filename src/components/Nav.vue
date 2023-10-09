@@ -6,8 +6,7 @@ import { RouterLink } from 'vue-router';
 <template>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-    <p><img src="https://thomascosin.be/img/logo_nom.png" width=70></p>
-      <RouterLink class="navbar-brand" to="/"> Accueil</RouterLink>
+      <RouterLink class="navbar-brand" to="/"> <img src="https://thomascosin.be/img/logo_nom.png" width="70"></RouterLink>
       <button
         class="navbar-toggler"
         type="button"

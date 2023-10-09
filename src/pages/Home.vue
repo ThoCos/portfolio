@@ -9,6 +9,8 @@ import { RouterLink } from 'vue-router';
       <p class="lead">
         Bienvenue sur mon portfolio !
       </p>
+      <h2>Mes projets</h2>
+      
       <RouterLink to="/about" class="btn btn-primary btn-lg"
         >Me contacter</RouterLink
       >

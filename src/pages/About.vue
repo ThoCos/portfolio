@@ -1,11 +1,9 @@
 <template>
-  <h2>Projets</h2>
+  <h2 class="centre">A propos de moi</h2>
   <p>
-    Nous sommes une équipe dévouée de professionnels passionnés par la création
-    de contenu informatif et utile en ligne. Notre objectif est de vous fournir
-    des informations précises, des conseils pratiques et des ressources de haute
-    qualité pour vous aider dans votre vie quotidienne et professionnelle.
+    <img src="https://img.freepik.com/vecteurs-premium/profil-avatar-homme-icone-ronde_24640-14044.jpg?w=360">
   </p>
+  <h2>Thomas COSIN</h2>
   <p>
     Que vous recherchiez des tutoriels, des actualités, des analyses
     approfondies ou des astuces pratiques, notre site est conçu pour répondre à
