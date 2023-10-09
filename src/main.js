@@ -6,6 +6,7 @@ import './assets/custom.scss';
 
 import App from './App.vue';
 import Home from './pages/Home.vue';
+// import projets from './pages/projets.vue';
 import About from './pages/About.vue';
 
 // Définition des routes

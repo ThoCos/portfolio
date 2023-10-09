@@ -1,12 +1,14 @@
 <script setup>
-import NavLink from './NavLink.vue';
-import { RouterLink } from 'vue-router';
+import NavLink from "./NavLink.vue";
+import { RouterLink } from "vue-router";
 </script>
 
 <template>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <RouterLink class="navbar-brand" to="/"> <img src="https://thomascosin.be/img/logo_nom.png" width="70"></RouterLink>
+      <RouterLink class="navbar-brand" to="/">
+        <img src="https://thomascosin.be/img/logo_nom.png" width="70"
+      /></RouterLink>
       <button
         class="navbar-toggler"
         type="button"
@@ -22,6 +24,7 @@ import { RouterLink } from 'vue-router';
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <NavLink url="/" text="Accueil" />
           <NavLink url="/about" text="À propos" />
+          <NavLink url="/projets" text="Mes projets" />
         </ul>
       </div>
     </div>
