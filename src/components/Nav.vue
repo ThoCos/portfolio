@@ -23,8 +23,8 @@ import { RouterLink } from "vue-router";
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <NavLink url="/" text="Accueil" />
+          <NavLink url="/Projets" text="Mes projets" />
           <NavLink url="/about" text="À propos" />
-          <NavLink url="/projets" text="Mes projets" />
         </ul>
       </div>
     </div>
