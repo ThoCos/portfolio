@@ -1,7 +1,7 @@
 <template>
-  <footer class="footer mt-auto py-3 bg-body-tertiary">
+  <footer class="footer mt-auto py-3">
     <div class="container">
-      <span class="text-body-secondary">Mentions légales | infos de copyrights</span>
+      <span class="text">Mentions légales | infos de copyrights</span>
     </div>
   </footer>
 </template>

@@ -24,8 +24,8 @@
             <!--Grid column-->
             <div class="col-md-6">
               <div class="md-form mb-0">
-                <input type="text" id="name" name="name" class="form-control" />
                 <label for="name" class="">Nom</label>
+                <input type="text" id="name" name="name" class="form-control" />
               </div>
             </div>
             <!--Grid column-->
@@ -33,13 +33,13 @@
             <!--Grid column-->
             <div class="col-md-6">
               <div class="md-form mb-0">
+                <label for="email" class="">Email</label>
                 <input
                   type="text"
                   id="email"
                   name="email"
                   class="form-control"
                 />
-                <label for="email" class="">Email</label>
               </div>
             </div>
             <!--Grid column-->
@@ -50,13 +50,13 @@
           <div class="row">
             <div class="col-md-12">
               <div class="md-form mb-0">
+                <label for="subject" class="">Sujet</label>
                 <input
                   type="text"
                   id="subject"
                   name="subject"
                   class="form-control"
                 />
-                <label for="subject" class="">Sujet</label>
               </div>
             </div>
           </div>
@@ -67,6 +67,7 @@
             <!--Grid column-->
             <div class="col-md-12">
               <div class="md-form">
+                <label for="message">Message</label>
                 <textarea
                   type="text"
                   id="message"
@@ -74,7 +75,6 @@
                   rows="2"
                   class="form-control md-textarea"
                 ></textarea>
-                <label for="message">Message</label>
               </div>
             </div>
           </div>
@@ -82,6 +82,7 @@
         </form>
 
         <div class="text-center text-md-left">
+          <br />
           <a
             class="btn btn-primary"
             onclick="document.getElementById('contact-form').submit();"
